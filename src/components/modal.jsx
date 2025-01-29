@@ -8,7 +8,7 @@ export default function Modal({ modalOpen, onClose, onSubmit, formData, onInputC
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-white p-8 rounded-lg w-[400px]">
-        <h2 className="text-lg font-bold mb-4">Add Menu Details</h2>
+        <h2 className="text-lg font-bold mb-5">Add Menu Details</h2>
 
         <div className="mb-4">
           <label className="block text-sm font-medium mb-2">Menu Name</label>
